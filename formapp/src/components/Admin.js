@@ -111,7 +111,7 @@ const Admin = () => {
                 <p className='dynamicdatachild'>Age: {patient.age}</p>
                 {!doctor && <p className='dynamicdatachild'>Specialization: {patient.specialization}</p>}
                 {!doctor && <p className='dynamicdatachild'>Days: {patient.days}</p>}
-                {!doctor && <p className='dynamicdatachild'>Details: {patient.Details}</p>}
+                {!doctor && <p className='dynamicdatachild'>Details: {patient.details}</p>}
            </div>
          ))}
         </div>
