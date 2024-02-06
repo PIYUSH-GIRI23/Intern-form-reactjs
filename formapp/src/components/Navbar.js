@@ -15,7 +15,7 @@ const Navbar = () => {
                                 <a className="nav-link" aria-current="page" href="https://github.com/PIYUSH-GIRI23/Intern-form-reactjs" target="_blank">Frontend (Github)</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://github.com/PIYUSH-GIRI23/Intern-form">Backend (Github)</a>
+                                <a className="nav-link" href="https://github.com/PIYUSH-GIRI23/Intern-form" target="_blank">Backend (Github)</a>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
