@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import Formdata from './Formdata'
 const Navbar = () => {
     return (
         <div>
@@ -19,11 +20,12 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <button className="btn btn-outline-success" type="submit">Admin</button>
+                            <Link className="btn btn-outline-success" type="submit" to='/Admin'>Admin</Link>
                         </form>
                     </div>
                 </div>
             </nav>
+            <Formdata/>
         </div>
     )
 }

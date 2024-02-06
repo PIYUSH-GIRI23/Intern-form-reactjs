@@ -28,7 +28,7 @@ const Form = () => {
   }
   const senddata=async()=>{
     const url=process.env.REACT_APP_BACKEND_API;
-    console.log(url)
+    // console.log(url)
     if(showform1){
       const payload={
         formid:1,
@@ -183,7 +183,7 @@ const Form = () => {
               <option value="Dermatologist">Dermatologist</option>
             </select>
         <input className={!showform1?'formdata':'formdata-hide'} placeholder={defaultdata.days} onChange={(e)=>setFormdata({...formdata,days:e.target.value})}/>
-        <input className={!showform1?'formdata':'formdata-hide'} placeholder={defaultdata.Details} onChange={(e)=>setFormdata({...formdata,Details:e.target.value})} rows={100}/>
+        <input className={!showform1?'formdata':'formdata-hide'} placeholder={defaultdata.Details} onChange={(e)=>setFormdata({...formdata,Details:e.target.value})} rows={100} maxLength={30}/>
       </div>
       <p className='warning'>
         {error.visible?error.message:''}

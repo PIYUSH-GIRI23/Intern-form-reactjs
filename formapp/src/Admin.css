@@ -1,0 +1,159 @@
+/* this is for admin */
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    border:1px solid black;
+}
+.homebutton{
+    position:absolute;
+    top:10px;
+    right:10px;   
+}
+.loginheader{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.loginchild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    padding-left:10px;
+    height:6vh;
+    width:30vw;
+    font-size:21px;
+}
+
+.loginbutton{
+    width: 12vw;
+    height:7vh;
+    font-size:26px !important;
+    font-weight:400;
+    margin-top:15px;
+}
+.wrongcred{
+    color:red;
+    font-size:14px;
+    display: flex;
+    justify-content: center;
+    font-size:21px;
+    font-weight:500;
+}
+
+@media screen and (max-width: 880px) {
+    .loginchild{
+        width: 80vw;
+    }
+    .loginbutton{
+        width: 22vw;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .loginchild{
+        width: 84vw;
+    }
+    .loginbutton{
+        width: 40vw;
+    }
+}
+
+
+/* this is pateint side */
+.patient-homebutton{
+    position:absolute;
+    top:10px;
+    left:10px;   
+}
+.patient-logout{
+    position:absolute;
+    top:10px;
+    right:10px;  
+    color:white; 
+}
+
+.radio-container{
+    position:absolute;
+    top:60px; 
+    display: flex;
+    justify-content: space-between; 
+    /* border:1px solid red;     */
+    width:98vw;
+    height:7vh;
+    margin-top:20px;
+}
+.radiooption{
+    width: 30vw;
+    height:7vh;
+    font-size:21px;
+    font-weight:500;
+    margin-left:10px;
+    margin-right:10px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radiobuttoninner{
+    width: 20px;
+    height: 20px;
+    /* border:1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.radiobuttonlabel{
+    font-size: 20px;
+    margin-left:10px;
+    cursor: pointer;
+}
+/* .search-button{
+    position:absolute;
+    top:10px;
+    right:10px;  
+    color:white;
+} */
+.patient-details{
+    height:70vh;
+    width:90vw;
+    /* border:1px solid red; */
+    position: absolute;
+    bottom:40px;
+    left:5vw;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+
+.dynamicdata {
+    border: 2px solid black;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin: 20px;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px; 
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
