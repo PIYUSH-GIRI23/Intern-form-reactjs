@@ -66,7 +66,7 @@ const Form = () => {
         age:formdata.age,
         specialization:formdata.specialization,
         days:formdata.days,
-        details:formdata.Details
+        Details:formdata.Details
       }
       // console.log(payload)
       try{
